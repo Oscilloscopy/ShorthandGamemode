@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+[[mods]]
+modId="shorthand"
+version="${file.jarVersion}"
+displayName="Shorthand Gamemodes"
+description='''
+Use /gamemode (c/s/a/sp/0/1/2/3) to quickly change gamemodes.
+This mod fixes what mojang did back in 1.13 (Removing shorthand gamemode commands in favor of the longer versions), and will work until that gets fixed.
+That is of course, if I keep updating this mod...
+'''
+[[dependencies.shorthand]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.shorthand]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17,1.19)"
+    ordering="NONE"
+    side="BOTH"
